@@ -1,0 +1,264 @@
+/*Pagina*/
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic
+}
+
+body {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*Formulario*/
+form {
+	width: 500px;
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin-top: 70px;
+	margin-bottom: 60px;
+	padding-top: 28px
+}
+
+h1 {
+	text-align: center;
+	padding: 24px;
+	color: #444
+}
+
+footer h3 {
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 52px;
+	
+}
+
+/*navegacion*/
+.nav_responsive-ul {
+	display: none;
+}
+
+.nav {
+	background-color: #8af;
+}
+
+.nav__ul {
+	opacity: 0.9;
+	text-align: center;
+}
+
+.nav__li {
+	display: inline-block;
+	padding: 12px;
+
+}
+
+.nav__li:hover > a {
+	color: #c92
+}
+
+.nav__li:hover {
+	color: #c92
+}
+
+.nav__li a {
+	color: #000;
+}
+
+.nav__li i {
+	box-sizing: border-box;
+	text-align: right;
+	margin-left: 5px;
+}
+
+.nav__responsive-button {
+	float: right;
+	font-size: 25px;
+	padding: 6px 20px
+}
+
+@media only screen and (max-width: 700px) {
+	.nav__ul{
+		display: none;
+	}
+
+	.nav {
+		height: 37px;
+		width: 100%;
+		background-color: #69c
+	}
+
+	.nav_responsive-ul {
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin-top: 37px;
+		padding-top: 27px;
+
+	}
+
+	.nav__li-container {
+		position: relative;
+		top: -1000px;
+		height: calc(100vh - 64px);
+		background-color: #7af;
+	}
+
+	.nav_responsive-li {
+		width: 100%;
+		padding: 9px 20px;
+	}
+
+	.nav_responsive-li i {
+		box-sizing: border-box;
+		text-align: right;
+		margin-right: 5px;
+		width: 30px;
+		color: #016;
+	}
+
+	.nav_responsive-li a {
+		color: #016
+	}
+
+	.nav_responsive-ul:hover > .nav__responsive-button  {
+		top: -27px;
+	}
+
+}
+
+
+/*Estilo de mensaje de tipo y bienvenida de usuario*/
+h2 {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+h2:active {
+	transition: all .8s;
+	background-color: #ededed;
+	font-size: 34px;
+}
+
+h2:hover {
+	cursor: pointer;
+}
+
+/*Estilos de los input*/
+input[type='search'] {
+	text-align: center;
+	width: 90px;
+	height: 10px;
+	margin-left: 500px;
+}
+
+input[type='search']:focus {
+	transition: .2s;
+	width: 200px;
+	height: 10px;
+	padding: 10px
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input:focus {
+	background: linear-gradient(to bottom, transparent, #a9aa99);
+}
+
+input[type='submit'] {
+	border-radius: 5px;
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+input[type='submit']:hover {
+	background-color: #49e;
+}
+
+input[type='submit']:active {
+	background: #35f;
+}
+
+input[type='submit']:focus {
+	background: linear-gradient(to bottom, #35f, #49e);
+}
+
+
+/*Estilos que muetran propiaedades de navegacion de etiqueta <a></a>*/
+a {
+	text-decoration: none;
+}
+
+.add {
+	margin-top: 36px;
+	margin-left: 20px;
+	color: black;
+}
+
+table tr td a {
+	color: #0f0;
+	background: transparent;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+table tr td a:hover {
+	background: #ededed
+}
+
+table tr td a:link {
+	color: #00f;
+}
+
+
+a:active {
+	cursor: progress;
+}
+
+a:hover {
+	color: #c92;
+}
+
+
+/*Tablas*/
+table {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: none;
+}
+
+table th {
+	background-color: #ededed;
+	border: 1px solid black;
+	padding: 5px 20px
+}
+
+table td {
+	border: 1px solid black;
+	padding: 5px
+}
+
+
+
+
+
+
+
+
+
+
+
